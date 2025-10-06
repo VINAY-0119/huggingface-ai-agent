@@ -19,4 +19,4 @@ A lightweight AI agent built with Hugging Face Transformers for natural language
 
 ```bash
 git clone https://github.com/yourusername/huggingface-ai-agent.git
-cd huggingface-ai-agent  add requirements for this
+cd huggingface-ai-agent  
