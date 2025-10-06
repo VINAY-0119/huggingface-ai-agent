@@ -1,26 +1,26 @@
 AI Agent using Hugging Face Transformers
 
-A lightweight AI agent built using Hugging Face Transformers for natural language processing tasks like sentiment analysis and text summarization. Run it directly from the terminal or Google Colab.
+A lightweight AI agent built with Hugging Face Transformers for natural language processing tasks such as sentiment analysis and text summarization. Designed for ease of use, it runs directly from the terminal or in Google Colab.
 
 Features
 
-Sentiment Analysis: Detects the sentiment of your input text (Positive, Negative, Neutral) and provides a confidence score.
+Sentiment Analysis – Detects whether text is Positive, Negative, or Neutral, along with a confidence score.
 
-Text Summarization: Summarizes long text inputs into concise summaries.
+Text Summarization – Condenses long texts into concise summaries.
 
-Simple and interactive terminal-based interface.
+Interactive Interface – Simple menu-driven terminal interaction.
 
 Requirements
 
-Python 3.8+
+Python 3.8 or higher
 
 Transformers
  library
 
-Optional: Torch
+Optional: PyTorch
  for model backend
 
-Install dependencies using pip:
+Install dependencies:
 
 pip install -r requirements.txt
 
@@ -37,7 +37,7 @@ Run the AI agent:
 python ai_agent.py
 
 
-Follow the menu in the terminal:
+Follow the terminal menu:
 
 === AI Agent using Hugging Face ===
 1. Sentiment Analysis
@@ -45,7 +45,7 @@ Follow the menu in the terminal:
 0. Exit
 
 
-Enter your text and get instant results.
+Input your text and view instant results.
 
 Example
 
@@ -55,19 +55,20 @@ Enter text for sentiment analysis: I love this product!
 Sentiment: POSITIVE | Confidence: 99.5%
 
 
-Summarization:
+Text Summarization:
 
 Enter text for summarization: <paste long text here>
 Summary: <generated summary>
 
 Notes
 
-Ensure your text isn’t too long for the summarization model; extremely long text may need to be chunked.
+Extremely long text may need to be chunked for summarization.
 
-You can use this script in Google Colab for easier GPU acceleration.
+Google Colab can be used to leverage GPU acceleration for faster processing.
 
-Files in the Repository
-
-ai_agent.py – The main Python script containing the AI agent code.
-
-requirements.txt – Contains all Python dependencies.
+Repository Structure
+ai-huggingface-agent/
+│
+├── ai_agent.py          # Main AI agent script
+├── requirements.txt     # Python dependencies
+└── README.md            # Project documentation
