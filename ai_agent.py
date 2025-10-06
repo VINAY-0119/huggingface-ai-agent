@@ -1,10 +1,3 @@
-"""
-AI Agent using Hugging Face Transformers
-Author: Vinay Kumar R
-Description:
-A lightweight AI agent built using Hugging Face for natural language processing tasks
-like summarization and sentiment analysis. Run locally via terminal.
-"""
 
 from transformers import pipeline
 
@@ -38,3 +31,4 @@ def analyze_text():
 
 if __name__ == "__main__":
     analyze_text()
+
